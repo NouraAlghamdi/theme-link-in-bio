@@ -4,10 +4,10 @@
 
 languages:
   en:
+    languageCode: en-US
     contentDir: content/en
     baseURL: 'https://hamedentist.com/en' # Website URL
     disabled: false
-    languageCode: en-US
     languageDirection: ltr
     languageName: English
     params:
@@ -16,10 +16,10 @@ languages:
     weight: 1
     
   ar:
+    languageCode: ar
     contentDir: content/ar
     baseURL: 'https://hamedentist.com/ar' # Website URL
     disabled: false
-    languageCode: ar
     languageDirection: rtl
     languageName: Arabic
     params:
