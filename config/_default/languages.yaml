@@ -2,16 +2,30 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
-en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/en
-  
-ar:
-languageCode: ar
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/ar
+languages:
+  en:
+    contentDir: content/en
+    baseURL: 'https://hamedentist.com/en' # Website URL
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+    subtitle: Reservation or Reserving an Appointment with Dr.Hamed
+    title: Dr.Hamed Alghamdi - Dentist
+    weight: 1
+    
+  ar:
+    contentDir: content/ar
+    baseURL: 'https://hamedentist.com/ar' # Website URL
+    disabled: false
+    languageCode: ar
+    languageDirection: rtl
+    languageName: Arabic
+    params:
+    subtitle: Reservation or Reserving an Appointment with Dr.Hamed
+    title: Dr.Hamed Alghamdi - Dentist
+    weight: 2
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
