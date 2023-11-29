@@ -12,9 +12,33 @@ baseURL: 'https://example.com/' # Website URL
 
 defaultContentLanguage: en
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 removePathAccents: true
 
+
+#########SUPPORT FOR MULTI-LANGUAGE##########
+languages:
+  de:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+    subtitle: Reservation or Reserving an Appointment with Dr.Hamed
+    title: Dr.Hamed Alghamdi - Dentist
+    weight: 1
+  en:
+    contentDir: content/ar
+    disabled: false
+    languageCode: ar
+    languageDirection: rtl
+    languageName: Arabic
+    params:
+    subtitle: Reservation or Reserving an Appointment with Dr.Hamed
+    title: Dr.Hamed Alghamdi - Dentist
+    weight: 2
+#############################################
 ############################
 ## ADVANCED
 ############################
