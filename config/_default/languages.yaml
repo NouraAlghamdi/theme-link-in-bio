@@ -15,17 +15,17 @@
     title: Dr.Hamed Alghamdi - Dentist
     weight: 1
     
-  ar:
-    languageCode: ar
-    contentDir: content/ar
-    baseURL: 'https://hamedentist.com/ar' # Website URL
-    disabled: false
-    languageDirection: rtl
-    languageName: Arabic
-    params:
-    subtitle: Reservation or Reserving an Appointment with Dr.Hamed
-    title: Dr.Hamed Alghamdi - Dentist
-    weight: 2
+  #ar:
+   # languageCode: ar
+    #contentDir: content/ar
+    #baseURL: 'https://hamedentist.com/ar' # Website URL
+    #disabled: false
+    #languageDirection: rtl
+    #languageName: Arabic
+    #params:
+    #subtitle: Reservation or Reserving an Appointment with Dr.Hamed
+    #title: Dr.Hamed Alghamdi - Dentist
+    #weight: 2
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
