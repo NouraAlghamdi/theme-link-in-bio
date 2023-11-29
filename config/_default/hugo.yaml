@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Fast & Free Link In Bio Website (Hugo Theme) # Website name
-baseURL: 'https://example.com/' # Website URL
+#title: Fast & Free Link In Bio Website (Hugo Theme) # Website name
+#baseURL: 'https://example.com/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -18,8 +18,9 @@ removePathAccents: true
 
 #########SUPPORT FOR MULTI-LANGUAGE##########
 languages:
-  de:
+  en:
     contentDir: content/en
+    baseURL: 'https://hamedentist.com/en' # Website URL
     disabled: false
     languageCode: en-US
     languageDirection: ltr
@@ -28,8 +29,10 @@ languages:
     subtitle: Reservation or Reserving an Appointment with Dr.Hamed
     title: Dr.Hamed Alghamdi - Dentist
     weight: 1
-  en:
+    
+  ar:
     contentDir: content/ar
+    baseURL: 'https://hamedentist.com/ar' # Website URL
     disabled: false
     languageCode: ar
     languageDirection: rtl
