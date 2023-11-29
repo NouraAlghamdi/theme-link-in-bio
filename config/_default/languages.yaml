@@ -19,7 +19,7 @@
     languageCode: ar
     contentDir: content/ar
     baseURL: 'https://hamedentist.com/ar' # Website URL
-    disabled: false
+    disabled: true
     languageDirection: rtl
     languageName: Arabic
     params:
