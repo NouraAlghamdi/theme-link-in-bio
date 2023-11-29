@@ -10,7 +10,7 @@
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en-us
+defaultContentLanguage: en-US
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: true
 removePathAccents: true
