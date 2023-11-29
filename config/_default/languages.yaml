@@ -6,7 +6,7 @@
   en:
     languageCode: en-US
     contentDir: content/en
-    baseURL: 'https://hamedentist.com/en' # Website URL
+    baseURL: 'https://example.com/en' # Website URL
     disabled: false
     languageDirection: ltr
     languageName: English
@@ -18,7 +18,7 @@
   ar:
     languageCode: ar
     contentDir: content/ar
-    baseURL: 'https://hamedentist.com/ar' # Website URL
+    baseURL: 'https://example.com/ar' # Website URL
     disabled: false
     languageDirection: rtl
     languageName: Arabic
